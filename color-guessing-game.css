@@ -1,0 +1,35 @@
+#start {
+    color: #293241;
+    border: 3px solid #3d5a80;
+    background-color: #98c1d9;
+    border-radius: 1rem;
+    transition: background-color .2s, color .2s, transform .25s;
+    margin-bottom: .75rem;
+    margin-top: 1rem;
+}
+
+#start:hover {
+    background-color: #3d5a80;
+    color: #e0fbfc;
+}
+
+#reset {
+    color: #293241;
+    background-color: #98c1d9;
+    border: 1px solid #3d5a80;
+    border-radius: 1rem;
+    transition: background-color .2s, border-color .2s, color .2s, transform .25s;
+}
+
+#reset:hover {
+    background-color: #ee6c4d;
+    border-color: #ee6c4d;
+    color: #e0fbfc;
+}
+
+#title {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    color: #293241;
+    background-color: #ee6c4d;
+}
